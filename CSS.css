@@ -1,0 +1,53 @@
+/* Resete básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Configurações do corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Altura mínima da viewport */
+    background-color: #f7f7f7; /* Cor de fundo suave */
+}
+
+/* Estilizando o container */
+.container {
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #4CAF50; /* Borda verde */
+    border-radius: 10px; /* Bordas arredondadas */
+    background-color: white; /* Fundo branco para o container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para dar profundidade */
+}
+
+/* Estilos para o título */
+h1 {
+    color: #4CAF50; /* Cor verde para o título */
+    font-size: 2.5em; /* Tamanho da fonte */
+}
+
+/* Estilos para o parágrafo */
+p {
+    color: #333; /* Cor de texto */
+    font-size: 1.2em; /* Tamanho da fonte do parágrafo */
+}
+
+/* Estilos responsivos */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2em; /* Reduz o tamanho da fonte em telas pequenas */
+    }
+
+    p {
+        font-size: 1em; /* Reduz o tamanho da fonte do parágrafo em telas pequenas */
+    }
+
+    .container {
+        padding: 15px; /* Ajusta o padding em telas pequenas */
+    }
+}
